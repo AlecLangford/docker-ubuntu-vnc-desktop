@@ -6,7 +6,7 @@ ENV HOME /root
 RUN apt-get update \
     && apt-get install -y --force-yes --no-install-recommends supervisor \
         pwgen sudo vim-tiny x11vnc x11vnc-data \
-        net-tools xonsh awesome tilix\
+        net-tools xonsh spectrwm tilix\
         lxde x11vnc xvfb \
         gtk2-engines-murrine ttf-ubuntu-font-family \
         firefox \
