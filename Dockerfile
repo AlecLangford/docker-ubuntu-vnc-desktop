@@ -6,10 +6,10 @@ ENV HOME /root
 RUN apt-get update \
     && apt-get install -y --force-yes --no-install-recommends supervisor \
         pwgen sudo vim-tiny x11vnc x11vnc-data \
-        net-tools xonsh i3\
+        net-tools xonsh i3 tilix\
         lxde x11vnc xvfb \
         gtk2-engines-murrine ttf-ubuntu-font-family \
-        libreoffice firefox \
+        firefox \
         fonts-wqy-microhei \
         nginx \
         python-pip python-dev build-essential python-setuptools \
